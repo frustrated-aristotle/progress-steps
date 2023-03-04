@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(238, 238, 231);
+    font: "tahoma";
+    color: cadetblue;
+    margin: 0;
+    text-align: center;
+}
+.content-container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+    gap: 50px;
+}
+.node-container{
+    display: flex;
+    align-items: center;
+}
+.button-container{
+    display: flex;
+    gap: 50px;
+}
+.nodes
+{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    border: 0.2rem solid grey;
+}
+.progress-bar{
+    width: 50px;
+    height: 5px;
+    background-color: grey;
+    align-items: center;
+}
+.progress-bar-selected{
+    width: 50px;
+    height: 5px;
+    background-color:blue;
+    align-items: center; 
+    transition: flex 0.7 ease-in;
+}
+
+.nodes-reached{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    border: 0.2rem solid blue;
+    transition: flex 0.7 ease-in;
+}
