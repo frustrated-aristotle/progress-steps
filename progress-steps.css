@@ -1,9 +1,16 @@
 body{
-    background-color: rgb(238, 238, 231);
-    font: "Tahoma";
-    color: cadetblue;
+    background-color: #F2F2F2;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
     margin: 0;
     text-align: center;
+}
+button{
+    background-color: #E84D3C ;
+    border: 3px solid #E84D3C;
+    color: #000000;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
 }
 .content-container{
     display: flex;
@@ -26,20 +33,20 @@ body{
 {
     width: 25px;
     height: 25px;
-    background-color: white;
+    background-color: white ;
     border-radius: 50%;
-    border: 0.2rem solid grey;
+    border: 0.2rem solid #D8D8D8;
 }
 .progress-bar{
     width: 50px;
     height: 5px;
-    background-color: grey;
+    background-color: #D8D8D8;
     align-items: center;
 }
 .progress-bar-reached{
     width: 50px;
     height: 5px;
-    background-color:blue;
+    background-color: #71C7B2;
     align-items: center;
     transition: background 0.5s;
 
@@ -50,5 +57,5 @@ body{
     height: 25px;
     background-color: white;
     border-radius: 50%;
-    border: 0.2rem solid blue;
+    border: 0.2rem solid #71C7B2;
 }
